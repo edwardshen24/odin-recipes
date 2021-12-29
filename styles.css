@@ -1,5 +1,16 @@
-*{
-    font-family: "Open Sans";
+.main{
+    font-family: 'Open Sans', sans-serif;
     font-size: large;
+    text-align: center;
+}
+
+.title {
+    font-size: 50px;
+    color: rgb(14, 17, 219);
+}
+
+h1, 
+h4,
+.img-container {
     text-align: center;
 }
