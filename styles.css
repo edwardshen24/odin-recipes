@@ -37,3 +37,28 @@ h4,
 .border:hover{
     background: #1ac768;
 }
+
+.start{
+    margin: auto;
+    width: 10%;
+    padding: 10px;
+    
+}
+.returnhome{
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+    margin: auto;
+    background:#359900   
+}
+
+.backlink {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.returnhome:hover {
+    color: #FFFFFF;
+    background-color: #005e08;
+    text-decoration: none;
+}
