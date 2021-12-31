@@ -2,11 +2,12 @@
     font-family: 'Open Sans', sans-serif;
     font-size: large;
     text-align: center;
+    background: #8ee4af;
 }
 
 .title {
     font-size: 50px;
-    color: rgb(14, 17, 219);
+    color: rgb(18, 194, 12);
 }
 
 h1, 
@@ -30,4 +31,9 @@ h4,
     background: #8ee4af;
     margin: 5px;
     padding: 5px;
+    border: 1px solid #00ff80;
+}
+
+.border:hover{
+    background: #1ac768;
 }
