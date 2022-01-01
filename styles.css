@@ -79,7 +79,7 @@ h4,
 .dropcontent{
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #292727;
     border-radius: 20px;
     min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -88,13 +88,19 @@ h4,
 
 .dropcontent a {
     border-radius: 20px;
-    color: black;
+    color: rgb(252, 252, 252);
     padding: 5px;
     font-size: 20px;
     text-decoration: none;
     display: block;
   }
 
-.dropcontent a:hover {background-color: #ddd;}
+.dropcontent a:hover {background-color: rgb(17, 16, 16);}
 .dropdown:hover .dropcontent {display: block;}
 .dropdown:hover .dropbutton {background-color: #3e8e41;}
+
+
+.git-image{
+    vertical-align: bottom;
+}
+
