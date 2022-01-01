@@ -62,3 +62,39 @@ h4,
     background-color: #005e08;
     text-decoration: none;
 }
+
+.dropbutton{
+    background-color: #1ac768;
+    border-radius: 20px;
+    color:white;
+    padding: 15px;
+}
+
+.dropdown {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+  
+.dropcontent{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:1;
+}
+
+.dropcontent a {
+    border-radius: 20px;
+    color: black;
+    padding: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+  }
+
+.dropcontent a:hover {background-color: #ddd;}
+.dropdown:hover .dropcontent {display: block;}
+.dropdown:hover .dropbutton {background-color: #3e8e41;}
