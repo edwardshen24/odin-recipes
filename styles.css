@@ -104,3 +104,6 @@ h4,
     vertical-align: bottom;
 }
 
+.git-image:hover{
+    opacity: 0.6;
+}
